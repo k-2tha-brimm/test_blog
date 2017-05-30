@@ -1,3 +1,90 @@
-<h1>This is the homepage.</h1>
+<!DOCTYPE HTML>
 
-<%= link_to 'About', about_path %>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-static-top">
+
+  <div class="container">
+
+    <div class="navbar-header">
+
+      <a href="#" class = "navbar-brand">Kevin's Site</a>
+
+      <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+      </button>
+
+    </div>
+
+    <div class = "collapse navbar-collapse navHeaderCollapse">
+
+      <ul class = "nav navbar-nav navbar-right">
+
+        <li> <%= link_to 'Home', root_path %> </li>
+        <li> <%= link_to 'About', about_path %> </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- Navbar Wrapper -->
+
+<div class="container">
+
+  <div class="jumbotron">
+
+    <div class="jumbotron-man">
+      <h1>Kevin's Blog</h1>
+      <p>This is just a bunch of stuff that I am typing while I listen to music for the sake of examples and whatnot and etcetra and whatnot.</p>
+    </div>
+
+  </div>
+
+</div>
+<!-- Jumbotron wrapper -->
+
+<hr />
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-4 col-lg-4">
+      <h2>Kevin Develops Things</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+
+    <div class="col-md-4 col-lg-4" style="border-left:medium #000000 solid;">
+      <h2>Kevin in Japan</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+
+    <div class="col-md-4 col-lg-4" style="border-left:medium #000000 solid;">
+      <h2>Kevin on Twitch</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+
+</html>
