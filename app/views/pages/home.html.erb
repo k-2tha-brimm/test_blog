@@ -12,58 +12,22 @@
 
 <body>
 
-<div class="navbar navbar-inverse navbar-static-top">
+<div id="wrapper">
 
-  <div class="container">
-
-    <div class="navbar-header">
-
-      <a href="#" class = "navbar-brand">Kevin's Site</a>
-
-      <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
-
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-
-      </button>
-
-    </div>
-
-    <div class = "collapse navbar-collapse navHeaderCollapse">
-
-      <ul class = "nav navbar-nav navbar-right">
-
-        <li> <%= link_to 'Home', root_path %> </li>
-        <li> <%= link_to 'About', about_path %> </li>
-        <li> <%= link_to 'Blog', articles_path %></li>
-
-      </ul>
-
-    </div>
-
-  </div>
-
-</div>
-<!-- Navbar Wrapper -->
-
-<div class="container">
-
-  <div class="jumbotron">
+  <div class="center jumbotron">
 
     <div class="jumbotron-man">
       <h1>Kevin's Blog</h1>
       <p>This is just a bunch of stuff that I am typing while I listen to music for the sake of examples and whatnot and etcetra and whatnot.</p>
+      <%= link_to "Sign Up", "#", class: "btn btn-info btn-md" %>
     </div>
 
   </div>
-
-</div>
 <!-- Jumbotron wrapper -->
 
-<hr />
+<h1 class="welcomeClass">Welcome to My Blog</h1>
 
-<div class="container">
+<hr />
 
   <div class="row">
 
